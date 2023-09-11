@@ -2,7 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+
+import moneytrackImg from "@/public/moneytrackImg.jpeg";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -35,52 +36,38 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Opencart developer",
+    company: "Grandway knifes",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I maintained a simple sub-site of the GrandWay company called Elite Knifes. I needed to monitor the site, download products from excel spreadsheets and sometimes correct details on the site by adjusting the CSS file",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "NodeJS Developer",
+    company: "ChatBullet",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "My role was to make telegram, viber bots for companies that needed them. I've been coding mostly in JavaScript ES9+ and nodeJS. In projects, I took over all communication with the client, as well as development",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Lead React Native developer",
+    company: "Arios",
+    description:
+      "I was the lead developer on the creation of the MoneyTrack pet app. At the beginning, the application was at Expo, but then it was transferred to React Native. I developed the entire frontend and backend, was responsible for the architecture and deployment",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "MoneyTrack",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This is my own mobile app for keeping daily records of purchases and just expenses.",
+    tags: ["React Native", "Redux", "Firebase", "TypeScript"],
+    imageUrl: moneytrackImg,
   },
 ] as const;
 
@@ -90,18 +77,15 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
+  "Expo",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Firebase",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
